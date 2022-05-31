@@ -16,6 +16,7 @@ export const Container = styled.header`
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 
     a {
       color: var(--title);
