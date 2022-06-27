@@ -4,7 +4,6 @@ import Footer from '../../Components/Footer';
 import Header from '../../Components/Header';
 import Pagination from '../../Components/Pagination';
 import Search from '../../Components/Search';
-import GlobalStyles from '../../Styles/GlobalStyles';
 
 import { Container, MainContainer } from './styles';
 
@@ -30,7 +29,6 @@ const Posts: React.FC = () => {
         </article>
         <Footer />
       </Container>
-      <GlobalStyles />
     </>
   );
 };

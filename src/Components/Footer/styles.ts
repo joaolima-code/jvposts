@@ -4,7 +4,7 @@ export const Container = styled.div`
   width: 100%;
   height: 13.5rem;
   margin: 0 auto;
-  padding: 0 7.5rem 0 7.5rem;
+  padding: 1rem 7.5rem 1rem 7.5rem;
 
   background: var(--footer);
 
@@ -46,6 +46,11 @@ export const Container = styled.div`
 
     font-size: 1rem;
     font-weight: 500;
+    color: var(--subtitle);
+  }
+
+  table td a:visited,
+  tbody a:visited {
     color: var(--subtitle);
   }
 `;
