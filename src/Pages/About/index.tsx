@@ -46,20 +46,19 @@ const About: React.FC = () => {
         </main>
         <section>
           <a
-            href="https://api.whatsapp.com/send?phone=5534998886018"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src={whatsapp} alt="whatsapp - 34 998886018" />
-          </a>
-          <a
             href="mailto:joaovitoralveslima2409@gmail.com"
             target="_blank"
             rel="noreferrer"
           >
             <img src={gmail} alt="gmail - joaovitoralveslima2409@gmail.com" />
           </a>
-
+          <a
+            href="https://api.whatsapp.com/send?phone=5534998886018"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={whatsapp} alt="whatsapp - 34 998886018" />
+          </a>
           <a
             href="https://github.com/joaolima-code"
             target="_blank"
