@@ -2,12 +2,9 @@ import React from 'react';
 import Footer from '../../Components/Footer';
 import Header from '../../Components/Header';
 import devhome from '../../Assets/dev-home.svg';
-
-import GlobalStyles from '../../Styles/GlobalStyles';
-
 import { Container } from './styles';
 
-const Default: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <>
       <Container>
@@ -27,9 +24,8 @@ const Default: React.FC = () => {
         </main>
         <Footer />
       </Container>
-      <GlobalStyles />
     </>
   );
 };
 
-export default Default;
+export default Home;

@@ -5,7 +5,7 @@ import { Container } from './styles';
 const Logo: React.FC = () => {
   return (
     <Container>
-      <a href="Home">
+      <a href="/">
         <strong>JV</strong>Posts
       </a>
     </Container>

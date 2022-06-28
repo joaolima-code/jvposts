@@ -19,16 +19,44 @@ const Footer: React.FC = () => {
         </thead>
         <tbody>
           <tr>
-            <td>Sobre</td>
-            <td>Linkedin</td>
+            <td>
+              <a href="/about-us">Sobre</a>
+            </td>
+            <td>
+              <a
+                href="https://www.linkedin.com/in/lima-joaovitor/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Linkedin
+              </a>
+            </td>
           </tr>
           <tr>
-            <td>Tecnologias</td>
-            <td>Github</td>
+            <td>
+              <a href="/about-us">Contatos</a>
+            </td>
+            <td>
+              <a
+                href="https://github.com/joaolima-code"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Github
+              </a>
+            </td>
           </tr>
           <tr>
-            <td>Contatos</td>
-            <td>Instagram</td>
+            <td></td>
+            <td>
+              <a
+                href="https://www.instagram.com/limajoaovitoralves/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Instagram
+              </a>
+            </td>
           </tr>
         </tbody>
       </table>
